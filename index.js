@@ -9,8 +9,8 @@ exports.reply = function justReply(req, res) {
 
         var target_albumId = "";
 
-        if( msg.includes( _KEYWORD1_ ) ){
-            target_albumId = _IMGUR_ALBUM_ID_FOR_KEYWORD1_ ;
+        if( msg.includes( draw ) ){
+            target_albumId = oxvVr ;
         }else{
             return;
         }
@@ -19,7 +19,7 @@ exports.reply = function justReply(req, res) {
             method: 'GET',
             uri: `https://api.imgur.com/3/album/${target_albumId}/images`,
             headers: {
-              "Authorization": `Client-ID ${_IMGUR_APP_TOKEN_}`
+              "Authorization": `Client-ID ${b3a11168c8994a9}`
             },
             json: true
         };
@@ -42,7 +42,8 @@ exports.reply = function justReply(req, res) {
                 uri: "https://api.line.me/v2/bot/message/reply",
                 headers: {
                   "Content-type": "application/json; charset=UTF-8",
-                  "Authorization": ` Bearer ${_LINE_CHANNEL_ACCESS_TOKEN_}`
+                  "Authorization": ` Bearer ${	
+ia0dzCyTR493I18l5OCdrjXyi18K7UEeK77ip1lXBIE}`
                 },
                 json: true,
                 body: {
