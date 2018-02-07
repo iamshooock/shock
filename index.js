@@ -19,7 +19,7 @@ exports.reply = function justReply(req, res) {
             method: 'GET',
             uri: `https://api.imgur.com/3/album/${target_albumId}/images`,
             headers: {
-              "Authorization": `Client-ID ${b3a11168c8994a9}`
+              "Authorization": `Client-ID ${e8ff5e6896f2103}`
             },
             json: true
         };
@@ -42,7 +42,7 @@ exports.reply = function justReply(req, res) {
                 uri: "https://api.line.me/v2/bot/message/reply",
                 headers: {
                   "Content-type": "application/json; charset=UTF-8",
-                  "Authorization": ` Bearer ${Lq+m9admFrj2Huf8OvfDTgZDYhkflC3yvRK/f13Uj/WU2ayqrubaAzsLJgm/4n8lW/i3AvUMX4ibMaM3c8EakzLXiRm0iPBWkgwC9tONiLdQqFfsDuAqUPP50FHOcHP5oJqCwxliKmPaL/amNyKVqQdB04t89/1O/w1cDnyilFU=}`
+                  "Authorization": ` Bearer ${6pjBCDzNi5tQjf5WIK6DEQZjMABCR7yznaFvUcDqVx2Sdvazl5itygtlAHwaL5tfW/i3AvUMX4ibMaM3c8EakzLXiRm0iPBWkgwC9tONiLdHsxu16pIzJoRxyVsuYXuI+iFnyuOUsvYGn5RZhmMDNQdB04t89/1O/w1cDnyilFU=}`
                 },
                 json: true,
                 body: {
