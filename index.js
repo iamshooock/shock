@@ -42,8 +42,7 @@ exports.reply = function justReply(req, res) {
                 uri: "https://api.line.me/v2/bot/message/reply",
                 headers: {
                   "Content-type": "application/json; charset=UTF-8",
-                  "Authorization": ` Bearer ${	
-ia0dzCyTR493I18l5OCdrjXyi18K7UEeK77ip1lXBIE}`
+                  "Authorization": ` Bearer ${Lq+m9admFrj2Huf8OvfDTgZDYhkflC3yvRK/f13Uj/WU2ayqrubaAzsLJgm/4n8lW/i3AvUMX4ibMaM3c8EakzLXiRm0iPBWkgwC9tONiLdQqFfsDuAqUPP50FHOcHP5oJqCwxliKmPaL/amNyKVqQdB04t89/1O/w1cDnyilFU=}`
                 },
                 json: true,
                 body: {
